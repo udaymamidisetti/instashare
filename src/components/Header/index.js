@@ -63,7 +63,6 @@ class Header extends Component {
         />
         <button
           type="button"
-          testid="searchIcon"
           className="search-btn"
           onClick={this.onClickSearchButton}
         >
@@ -129,7 +128,6 @@ class Header extends Component {
                       type="button"
                       className={`nav-mobile-btn ${navItemClassName}`}
                       onClick={this.onClickHamBergerMenu}
-                      testid="hamburgerMenuIcon"
                     >
                       <GiHamburgerMenu size={15} />
                     </button>
@@ -142,7 +140,6 @@ class Header extends Component {
                         <button
                           type="button"
                           className="mobile-menu-btn"
-                          testid="searchIcon"
                           onClick={this.onClickSearchTab}
                         >
                           <FaSearch className="search-icon-mobile" />
@@ -170,7 +167,6 @@ class Header extends Component {
                       <li className="nav-item-mobile">
                         <button
                           type="button"
-                          testid="closeIcon"
                           className="mobile-menu-btn"
                           onClick={this.onClickCloseButton}
                         >
@@ -191,7 +187,6 @@ class Header extends Component {
                           />
                           <button
                             type="button"
-                            // testid="searchIcon"
                             className="search-btn"
                             onClick={this.onClickSearchButton}
                           >

@@ -128,7 +128,6 @@ class SearchPostCard extends Component {
                       <button
                         type="button"
                         className={`like-icon-btn ${textColor}`}
-                        testid="unLikeIcon"
                         onClick={this.onClickLikeDecrement}
                       >
                         <FcLike size={15} />
@@ -137,7 +136,6 @@ class SearchPostCard extends Component {
                       <button
                         type="button"
                         className={`like-icon-btn ${textColor}`}
-                        testid="likeIcon"
                         onClick={this.onclickLikeIncrement}
                       >
                         <BsHeart

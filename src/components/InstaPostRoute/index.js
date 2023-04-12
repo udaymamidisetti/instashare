@@ -99,7 +99,7 @@ class InstaPostRoute extends Component {
   )
 
   renderLoadingView = () => (
-    <div className="loader-container" testid="loader">
+    <div className="loader-container">
       <Loader type="Oval" color="#0b69ff" height="50" width="50" />
     </div>
   )

@@ -87,7 +87,7 @@ class InstaStory extends Component {
   }
 
   renderLoadingView = () => (
-    <div className="loader-container-story" testid="loader">
+    <div className="loader-container-story">
       <Loader type="Oval" color="#3b82f6" height="50" width="50" />
     </div>
   )
@@ -111,7 +111,6 @@ class InstaStory extends Component {
         type="button"
         className="home-page-btn"
         onClick={this.onClickRetry}
-        testid="button"
       >
         Try again
       </button>

@@ -113,7 +113,7 @@ class UserPostCard extends Component {
             : 'list-text-light-theme'
 
           return (
-            <li className="user-Post-Container" testid="postCard">
+            <li className="user-Post-Container">
               <div className="user-Post-content">
                 <div className="user-profile-container">
                   <img
@@ -133,7 +133,6 @@ class UserPostCard extends Component {
                       <button
                         type="button"
                         className={`like-icon-btn ${textColor}`}
-                        testid="unLikeIcon"
                         onClick={this.onClickLikeDecrement}
                       >
                         <FcLike size={15} />
@@ -142,7 +141,6 @@ class UserPostCard extends Component {
                       <button
                         type="button"
                         className={`like-icon-btn ${textColor}`}
-                        testid="likeIcon"
                         onClick={this.onclickLikeIncrement}
                       >
                         <BsHeart size={15} />
